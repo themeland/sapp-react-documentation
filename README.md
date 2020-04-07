@@ -44,11 +44,12 @@ For example
 ## themes
 Under themes dir we wrote all of our root theme like ThemeOne, ThemeTwo where we combined all of our components as per our theme design.
 ```text
-└── themes
-    └── theme-one.js
-    └── theme-two.js
-    └── ......
-    └── theme-six.js
+└── Src
+    ├── themes
+        └── theme-one.js
+        └── theme-two.js
+        └── ......
+        └── theme-six.js
 ```
 ```js
 For example -- here is the combination to build ThemeOne
@@ -57,6 +58,7 @@ For example -- here is the combination to build ThemeOne
     ├── themes
         └── theme-one.js
 ```
+
 ```js
 <div>
     <Preloader />
