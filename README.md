@@ -18,19 +18,39 @@ For example
 .
 └── Src
     ├── components
+        ├── Accounts
+            └── Forgot.js
+            └── .....
+            └── Signup.js (code for account signup style)
+        ├── Blogs
+            └── Blog.js
+            └── BlogDetails.js
+            └── .....
+            └── Sidebar.js (code for sidebar style)
+            
+        ├── .........
+        
         ├── HeaderSection
           └── Header.js (here we wrote all the code for header)
           (we have six different style for hero section and we made component for every single style)
-    └── HeroSection
-        ├── HeroOne.js (code for hero one style)
-        └── HeroTwo.js
-        └── .....
-        └── HeroSix.js (code for hero six style)
+        ├── HeroSection
+            └── HeroOne.js (code for hero one style)
+            └── HeroTwo.js
+            └── .....
+            └── HeroSix.js (code for hero six style)
         you can write custom components according to your need.
 ```
 
 ## themes
 Under themes dir we wrote all of our root theme like ThemeOne, ThemeTwo where we combined all of our components as per our theme design.
+```text
+└── themes
+    ├── theme-one.js
+    ├── theme-two.js
+    ├── ......
+    ├── theme-six.js
+```
+```js
 For example -- here is the combination to build ThemeOne
 ```text
 └── themes
@@ -66,7 +86,15 @@ function App() {
 ```
 
 ## routers
-In router section we used route js. Where we linked all the route for our all theme. For routing we used react-router-dom. To view theme-two use with your root url
+In router section we used route js. Where we linked all the route for our all theme. For routing we used react-router-dom.
+
+```text
+.
+└── Src
+    ├── routers
+        ├── routs.js
+```
+To view theme-two use with your root url
 ```text
 /theme-two 
 ```
