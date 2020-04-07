@@ -51,7 +51,7 @@ Under themes dir we wrote all of our root theme like ThemeOne, ThemeTwo where we
         └── ......
         └── theme-six.js
 ```
-```js
+
 For example -- here is the combination to build ThemeOne
 ```text
 └── Src
