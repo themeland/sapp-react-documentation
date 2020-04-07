@@ -61,7 +61,6 @@ For example -- here is the combination to build ThemeOne
 
 ```js
 <div>
-    <Preloader />
     {/*====== Scroll To Top Area Start ======*/}
     <div id="scrollUp" title="Scroll To Top">
         <i className="fas fa-arrow-up" />
