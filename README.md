@@ -5,7 +5,7 @@ Stack We Used
 2. HTML5
 
 Folder Structure
-1) Components
+1) components
 2) themes
 3) routers
 
@@ -15,7 +15,7 @@ If you are familiar with react or create react app architecture, then we are fam
 For example
 
 ```text
-.
+
 └── Src
     ├── components
         ├── Accounts
@@ -32,29 +32,30 @@ For example
         
         ├── HeaderSection
           └── Header.js (here we wrote all the code for header)
-          (we have six different style for hero section and we made component for every single style)
+              (we have six different style for hero section and we made component for every single style)
         ├── HeroSection
             └── HeroOne.js (code for hero one style)
             └── HeroTwo.js
             └── .....
             └── HeroSix.js (code for hero six style)
-        you can write custom components according to your need.
+                you can write custom components according to your need.
 ```
 
 ## themes
 Under themes dir we wrote all of our root theme like ThemeOne, ThemeTwo where we combined all of our components as per our theme design.
 ```text
 └── themes
-    ├── theme-one.js
-    ├── theme-two.js
-    ├── ......
-    ├── theme-six.js
+    └── theme-one.js
+    └── theme-two.js
+    └── ......
+    └── theme-six.js
 ```
 ```js
 For example -- here is the combination to build ThemeOne
 ```text
-└── themes
-    ├── theme-one.js
+└── Src
+    ├── themes
+        └── theme-one.js
 ```
 ```js
 <div>
@@ -89,10 +90,10 @@ function App() {
 In router section we used route js. Where we linked all the route for our all theme. For routing we used react-router-dom.
 
 ```text
-.
+
 └── Src
     ├── routers
-        ├── routs.js
+        └── routs.js
 ```
 To view theme-two use with your root url
 ```text
