@@ -2,7 +2,7 @@
 
 
 ## public
-I hope you have seen this template `public` folder structure on [Folder structure](/folder-structure) menu.
+I hope you have seen this template `public` folder on the downloaded package `Sapp - React App Landing Page` from ThemeForest.
 
 In this `public` folder you can see `index.html` file. This file structure is like this-
 
@@ -81,10 +81,10 @@ This is `theme` folder structure-
     |-- theme-one.js ( default theme)
     |-- theme-two.js ( demo theme 2)
     .....
-    |-- theme-six.js ( demo theme six )
+    |-- theme-six.js ( demo theme 6 )
 ```
 
-`theme` folder contain all of our 6 demos.
+`theme` folder contains all of our 6 demos.
 
 
 ## components
@@ -105,14 +105,14 @@ This is `theme` folder structure-
         
      .........
      
-    |-- Header
-        └── header.js (here we wrote all the code for header)
-          (we have six different style for hero section and we maid component for every single style)
+    |-- HeaderSection
+        └── Header.js (here we wrote all the code for header)
+        (we have six different style for hero section and we maid component for every single style)
     |-- HeroSection
-        └── heroOne.js (code for hero one style)
-        └── heroTwo.js
+        └── HeroOne.js (code for hero one style)
+        └── HeroTwo.js
         └── .....
-        └── heroSix.js (code for her six style)
+        └── HeroSix.js (code for her six style)
             you can write custom components according to your need.
             
      .........
@@ -121,11 +121,11 @@ This is `theme` folder structure-
         └── work.js (code for work section)
 ```
 
-`components` folder contain 21 folder with different sections and files.
+`components` folder contains 21 folders with different sections and files.
 
 
 ## routes
-In router section we used route js. where we linked all the route for our all theme. For routing we used react-router-dom.
+In `routers` folder we used routs js. where we linked all the route for our all theme. For routing we used react-router-dom.
 
 Routes: `routers/routs.js`
 
