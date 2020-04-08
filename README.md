@@ -125,7 +125,7 @@ This is `theme` folder structure-
 
 
 ## routes
-In `routers` folder we used routs js. where we linked all the route for our all theme. For routing we used react-router-dom.
+In `routers` folder we used `routs.js`. Where we linked all the route for our all theme. For routing we used react-router-dom.
 
 Routes: `routers/routs.js`
 
