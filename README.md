@@ -186,7 +186,7 @@ By using these basic components, For example in our components directory there i
     ...    
 ```
 
-### Contact Us component
+### Contact Section component
 `ContactSection/Contact.js`
 ```js
 import React, { Component } from 'react';
