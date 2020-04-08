@@ -34,7 +34,7 @@ All HTML content will be load into this `div`:
 ## entry points
 
 ##### index.js
-Template `index.js` structure like this-
+Template `index.js` structure looks like this-
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -52,7 +52,7 @@ serviceWorker.unregister();
 ```
 
 ##### app.js
-Template `app.js` structure like this-
+Template `app.js` structure looks like this-
 ```js
 import React from 'react';
 
@@ -164,7 +164,7 @@ export default MyRouts;
 
 
 ## components
-Under components folder we wrote all of our components individually. 
+Under `components` folder we wrote all of our components individually. 
 We have written these components to make the developer’s life easy. 
 By using these basic components, For example in our components directory there is `HeaderSection`, `HeroSection` , `FooterSection` folder where we wrote our different styled component. For example `HeroSection` component-
 
