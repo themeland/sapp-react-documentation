@@ -57,7 +57,7 @@ Template `app.js` structure looks like this-
 import React from 'react';
 
 // importing MyRouts where we located all of our theme
-import MyRouts from './routers/routs'
+import MyRouts from './routers/routes'
 
 function App() {
   return (
@@ -88,9 +88,9 @@ This is `theme` folder structure-
 
 
 ## routes
-In `routers` folder we used `routs.js`. Where we linked all the route for our all theme. For routing we used react-router-dom.
+In `routers` folder we used `routes.js`. Where we linked all the route for our all theme. For routing we used react-router-dom.
 
-Routes: `routers/routs.js`
+Routes: `routers/routes.js`
 
 ```js
 import React from "react";
@@ -129,29 +129,29 @@ class MyRouts extends React.Component {
         <Router>
           <Switch>
             <Route exact path="/" component={ThemeOne} />
-            <Route exact path="/theme-two" component={ThemeTwo} />
-            <Route exact path="/theme-three" component={ThemeThree} />
-            <Route exact path="/theme-four" component={ThemeFour} />
-            <Route exact path="/theme-five" component={ThemeFive} />
-            <Route exact path="/theme-six" component={ThemeSix} />
-            <Route exact path="/BlogTwoColumn" component={BlogTwoColumn} />
-            <Route exact path="/BlogThreeColumn" component={BlogThreeColumn} />
-            <Route exact path="/BlogLeftSidebar" component={BlogLeftSidebar} />
-            <Route exact path="/BlogRightSidebar" component={BlogRightSidebar} />
-            <Route exact path="/BlogDetailsLeftSidebar" component={BlogDetailsLeftSidebar} />
-            <Route exact path="/BlogDetailsRightSidebar" component={BlogDetailsRightSidebar} />
-            <Route exact path="/Reviews" component={Reviews} />
-            <Route exact path="/Pricing" component={Pricing} />
-            <Route exact path="/DownloadPage" component={DownloadPage} />
-            <Route exact path="/SubscribePage" component={SubscribePage} />
-            <Route exact path="/ThankYou" component={ThankYou} />
-            <Route exact path="/ComingSoon" component={ComingSoon} />
-            <Route exact path="/Login" component={Login} />
-            <Route exact path="/Signup" component={Signup} />
-            <Route exact path="/Forgot" component={Forgot} />
-            <Route exact path="/Faq" component={Faq} />
-            <Route exact path="/ErrorPage" component={ErrorPage} />
-            <Route exact path="/ContactPage" component={ContactPage} />
+            <Route path="/theme-two" component={ThemeTwo} />
+            <Route path="/theme-three" component={ThemeThree} />
+            <Route path="/theme-four" component={ThemeFour} />
+            <Route path="/theme-five" component={ThemeFive} />
+            <Route path="/theme-six" component={ThemeSix} />
+            <Route path="/blog-two-column" component={BlogTwoColumn} />
+            <Route path="/blog-three-column" component={BlogThreeColumn} />
+            <Route path="/blog-left-sidebar" component={BlogLeftSidebar} />
+            <Route path="/blog-right-sidebar" component={BlogRightSidebar} />
+            <Route path="/blog-details-left-sidebar" component={BlogDetailsLeftSidebar} />
+            <Route path="/blog-details-right-sidebar" component={BlogDetailsRightSidebar} />
+            <Route path="/reviews" component={Reviews} />
+            <Route path="/pricing" component={Pricing} />
+            <Route path="/download-page" component={DownloadPage} />
+            <Route path="/subscribe-page" component={SubscribePage} />
+            <Route path="/thank-you" component={ThankYou} />
+            <Route path="/coming-soon" component={ComingSoon} />
+            <Route path="/login" component={Login} />
+            <Route path="/signup" component={Signup} />
+            <Route path="/forgot" component={Forgot} />
+            <Route path="/faq" component={Faq} />
+            <Route path="/error-page" component={ErrorPage} />
+            <Route path="/contact-page" component={ContactPage} />
           </Switch>
         </Router>
       </div>
