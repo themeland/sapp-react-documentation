@@ -19,7 +19,7 @@ In this `public` folder you can see `index.html` file. This file structure is li
  
  <!--all js linking here-->
 </body>
-
+  
 </html>
 ```
 
